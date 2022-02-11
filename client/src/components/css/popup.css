@@ -1,0 +1,106 @@
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.144);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.popup-inner{
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    height: 66%;
+    max-width: 490px;
+    border-radius: 19px;
+    background-color:white;
+    text-align: center;
+}
+.popup-inner .close-btn{
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    padding: 0;
+    border: none;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 0;
+    width: 30px;
+    height:30px;
+    display: inline-block;
+    background-color: white;
+    background-position: center;
+    line-height: 0.1%;
+}
+.popup-inner .close-btn:hover{
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    padding: 0;
+    line-height: 0.1%;
+    border: none;
+    font-size: 30px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: rgb(233, 232, 232);
+}
+.popup-mentions{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.144);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.popup-mentions-inner{
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    height: 40%;
+    max-width: 490px;
+    border-radius: 19px;
+    background-color:white;
+    text-align: center;
+}
+.popup-mentions-inner .close-btn{
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    padding: 0;
+    border: none;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 0;
+    width: 30px;
+    height:30px;
+    display: inline-block;
+    background-color: white;
+    background-position: center;
+    line-height: 0.1%;
+}
+.popup-mentions-inner .close-btn:hover{
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    padding: 0;
+    line-height: 0.1%;
+    border: none;
+    font-size: 30px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: rgb(233, 232, 232);
+}

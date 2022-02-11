@@ -1,0 +1,101 @@
+.twitter-logo{
+    position: absolute;
+    top: -72px;
+    left: 256px;
+    width: 3vw;
+    height: 5vh;
+}
+.title{
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.username{
+    width: 66%;
+    height: 35px;
+    padding-top: 7px;
+    margin-bottom: 10px;
+}
+.password{
+    position: absolute;
+    bottom: 280px;
+    left: 111px;
+    width: 324px;
+    height: 35px;
+    padding-top: 7px;
+    margin-bottom: 33px;
+}
+.submit{
+    position: absolute;
+    bottom: 150px;
+    left: 97px;
+    height: 40px;
+    width: 363px;
+    border-radius: 9999px;
+    background-color: rgb(39, 39, 39);
+    border: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 16px;
+    margin-bottom: 17px;
+}
+
+.forgot{
+    position: absolute;
+    bottom: 100px;
+    left: 97px;
+    height: 40px;
+    width: 363px;
+    border-style: solid;
+    border-radius: 9999px;
+    border-width: thin;
+    background-color: white;
+    border-color: rgb(93, 136, 165);
+    color: rgb(39, 39, 39);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 16px;
+}
+.submit:hover{
+    position: absolute;
+    bottom: 150px;
+    left: 97px;
+    height: 40px;
+    width: 363px;
+    border-radius: 9999px;
+    background-color: rgb(68, 68, 68);
+    border: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 16px;
+    margin-bottom: 17px;
+}
+
+.forgot:hover{
+    position: absolute;
+    bottom: 100px;
+    left: 97px;
+    height: 40px;
+    width: 363px;
+    border-style: solid;
+    border-radius: 9999px;
+    border-width: thin;
+    background-color: rgb(243, 243, 243);
+    border-color: rgb(93, 136, 165);
+    color: rgb(39, 39, 39);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 16px;
+}
+
+.no-account{
+    position: absolute;
+    bottom: 20px;
+    left: 167px;
+    color: rgb(66, 66, 66);
+}
+.sign-up{
+    color: rgb(28, 149, 230);
+}
+.sign-up:hover{
+    color: rgb(28, 149, 230);
+    text-decoration: underline;
+}

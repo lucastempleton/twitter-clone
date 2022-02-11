@@ -1,0 +1,35 @@
+.password-sign-up{
+    position: absolute;
+    top: 50%;
+    left: 98px;
+    width: 64%;
+    height: 35px;
+}
+.next-btn{
+    position: absolute;
+    bottom: 17px;
+    left: 98px;
+    height: 40px;
+    width: 66%;
+    border-radius: 9999px;
+    background-color: rgb(68, 68, 68);
+    border: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 16px;
+    margin-bottom: 33px;
+}
+.next-btn:hover{
+    position: absolute;
+    bottom: 17px;
+    left: 98px;
+    height: 40px;
+    width: 66%;
+    border-radius: 9999px;
+    background-color: rgb(39, 39, 39);
+    border: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 16px;
+    margin-bottom: 33px;
+}

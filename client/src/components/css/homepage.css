@@ -1,0 +1,307 @@
+.container{
+    display: grid;
+    width: 100vw;
+    height: 98vh;
+    grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+    gap: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    justify-content: center;
+}
+.navbar{
+    /* display: grid; */
+    grid-row: 2 / 9;
+    grid-column: 2/4 ;
+    /* border: 1px solid black; */
+}
+.profile{
+    grid-row: 10 / -1;
+    grid-column: 2/4 ;
+    border: 1px solid black;
+}
+.tweets{
+    grid-row: 4 / -1;
+    grid-column: 4/8 ;
+    /* border: 1px solid black; */
+}
+.tweet{
+    grid-row: 2 / 4;
+    grid-column: 4/8 ;
+    /* border: 1px solid black; */
+}
+.news{
+    grid-row: 2 / 8;
+    grid-column: 8/10 ;
+    overflow: scroll;
+    /* border: 1px solid black; */
+}
+.follow{
+    grid-row: 9 / -1;
+    grid-column: 8/10 ;
+    border: 1px solid black;
+}
+.messages{
+    border: 1px solid black;
+}
+.search{
+    grid-row: 1 ;
+    grid-column: 2/10 ;
+    /* border: 1px solid black; */
+}
+.twitter-logo-header{
+    width: 7vh;
+    vertical-align: middle;
+    margin-left: 7px;
+}
+.twitter-logo-button{
+    height: 9vh;
+    width: 9vh;
+    border: none;
+    background-color: white;
+}
+.twitter-logo-button:hover{
+    height: 9vh;
+    width: 9vh;
+    border-radius: 50%;
+    background-color: rgba(86, 187, 255, 0.212);
+}
+.home-header{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 226px;
+    font-size: 25px;
+    font-weight: 550;
+}
+.navbar img{
+    width: 7vh;
+    height: 7vh;
+    margin-right: 15px;
+}
+.navbar button{
+    display: list-item;
+    background: none;
+    border: none;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 15px;
+    vertical-align: middle;
+    text-align: center;
+    /* line-height: 10px; */
+    margin-top: 9px;
+    color: rgba(36, 36, 36, 0.795);
+}
+.navbar button:hover{
+    display: list-item;
+    border: none;
+    font-size: 25px;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 9px;
+    background-color: rgb(233, 232, 232);
+    border-radius: 99px;
+}
+#home-button{
+    color: black;
+    font-weight: 550;
+}
+.tweet form{
+    display: inline-block;
+    margin-left: 21px;
+    vertical-align: top;
+}
+.tweet img{
+    width: 9vh;
+    border-radius: 50%;
+}
+.tweet-input{
+    height: 9vh;
+    width: 30vw;
+    font-size: larger;
+    border: none;
+    outline: none;
+}
+.reply-box{
+    display:block;
+    width: 21vw;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: rgb(29, 155, 240);
+    font-weight: 700;
+    font-size: medium;
+}
+.tweet-button-form{
+    position: absolute;
+    width: 7vw;
+    height: 6vh;
+    top: 180px;
+    right: 462px;
+    border-radius: 9999px;
+    background-color: rgb(29, 155, 240);
+    border: none;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+.tweet-button-form:hover{
+    position: absolute;
+    width: 7vw;
+    height: 6vh;
+    top: 180px;
+    right: 462px;
+    border-radius: 9999px;
+    background-color: rgb(28, 149, 230);
+    border: none;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+.tweet-button-form-invalid{
+    position: absolute;
+    width: 7vw;
+    height: 6vh;
+    top: 180px;
+    right: 462px;
+    border-radius: 9999px;
+    background-color: rgb(119, 198, 250);
+    border: none;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+.article a{
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: 600;
+    color:black;
+    text-decoration: none;
+}
+.article img{
+    float: right;
+    vertical-align: top;
+    width: 7vw;
+    border-radius: 9px;
+}
+.tweets{
+    overflow: scroll;
+    /* display: block */
+}
+.single-tweet{
+    overflow: hidden;
+}
+.single-tweet img{
+    display: inline-block;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    margin-right: 21px;
+}
+.name{
+    display: inline-block;
+    font-weight: 600;
+    margin-right: 7px;
+    vertical-align: top;
+    margin-top: 6px;
+}
+.username{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0px;
+    color: rgba(131, 131, 131, 0.795);
+}
+.tweet-text{
+    /* display: block; */
+    position: relative;
+    top: -36px;
+    margin-left: 93px;
+    margin-top: 0px;
+    color: rgb(29, 29, 29);
+}
+.tweet-buttons{
+    display: inline-block;
+    position: relative;
+    top: -40px;
+    left: 86px;
+}
+/* .tweet-buttons button{
+    border: none;
+    background-color: white;
+    display: inline-block;
+    margin-right: 90px;
+    color: rgba(131, 131, 131, 0.795);
+} */
+.tweet-liked{
+    border: none;
+    background-color: white;
+    display: inline-block;
+    margin-right: 90px;
+    color: rgba(199, 15, 15);
+}
+.tweet-liked:hover{
+    color: rgb(199, 15, 15);
+    background-color: rgba(199, 15, 15, 0.116);
+    border-radius: 99px;
+    height: 3vh;
+    margin-bottom: 2px;
+}
+.tweet-retweets{
+    border: none;
+    background-color: white;
+    display: inline-block;
+    margin-right: 90px;
+    color: rgba(131, 131, 131, 0.795);
+}
+.tweet-likes{
+    border: none;
+    background-color: white;
+    display: inline-block;
+    margin-right: 90px;
+    color: rgba(131, 131, 131, 0.795);
+}
+.tweet-mentions{
+    border: none;
+    background-color: white;
+    display: inline-block;
+    margin-right: 90px;
+    color: rgba(131, 131, 131, 0.795);
+}
+.tweet-bookmarks{
+    border: none;
+    background-color: white;
+    display: inline-block;
+    margin-right: 90px;
+    color: rgba(131, 131, 131, 0.795);
+}
+.tweet-retweets:hover{
+    color: rgb(11, 190, 11);
+    background-color: rgba(11, 190, 11, 0.116);
+    border-radius: 99px;
+    height: 3vh;
+}
+.tweet-likes:hover{
+    color: rgb(199, 15, 15);
+    background-color: rgba(199, 15, 15, 0.116);
+    border-radius: 99px;
+    height: 3vh;
+    margin-bottom: 2px;
+}
+.tweet-bookmarks:hover{
+    color: rgb(28, 149, 230);
+    background-color: rgba(28, 149, 230, 0.116);
+    border-radius: 99px;
+    height: 3vh;
+}
+.tweet-mentions:hover{
+    color: rgb(28, 149, 230);
+    background-color: rgba(28, 149, 230, 0.116);
+    border-radius: 99px;
+    height: 3vh;
+}
