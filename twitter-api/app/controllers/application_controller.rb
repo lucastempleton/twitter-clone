@@ -1,12 +1,12 @@
 class ApplicationController < ActionController::API
     include ActionController::Cookies
     
-    # before_acticon :current_user
+    # before_action :current_user
 
-    private
+    # private
 
         def current_user
-            # byebug
+            # byebug 
             @current_user = User.find_by_id(session[:user_id])
         end
 end

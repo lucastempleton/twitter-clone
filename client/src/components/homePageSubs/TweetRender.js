@@ -77,6 +77,7 @@ export default function TweetRender({tweet, user}){
             <p className="name">{t.owner.name}</p>
             <p className="username">{t.owner.username}</p>
             <p className="tweet-text">{t.text}</p>
+            {t.owner.username === user.username ? <p>...</p> : null}
             <div className="tweet-buttons">
                 {mentionPop ? <MentionPopup changePopup={changePopup}/> : <button onClick={changePopup} className="tweet-mentions">💬 off</button>}
                 <button className="tweet-retweets">🔄 {t.repost_count}</button>

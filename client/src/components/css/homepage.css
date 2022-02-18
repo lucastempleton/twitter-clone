@@ -16,7 +16,7 @@
 .profile{
     grid-row: 10 / -1;
     grid-column: 2/4 ;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .tweets{
     grid-row: 4 / -1;
@@ -110,6 +110,7 @@
 }
 .tweet img{
     width: 9vh;
+    height: 9vh;
     border-radius: 50%;
 }
 .tweet-input{
@@ -304,4 +305,41 @@
     background-color: rgba(28, 149, 230, 0.116);
     border-radius: 99px;
     height: 3vh;
+}
+.profile-div{
+    height: 10vh;
+    padding-left: 5px;
+    width: 17vw;
+}
+.profile-div:hover{
+    padding-left: 5px;
+    background: rgba(207, 205, 205, 0.534);
+    border-radius: 99px;
+}
+.profile-usertags{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 9px;
+}
+.profile-avatar{
+    /* float: left;
+    position: relative;
+    top: 2px;
+    left: 0px; */
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.profile-name{
+    font-weight: 600;
+}
+.profile-username{
+    margin-top: -15px;
+    color: gray;
+}
+.profile-dots{
+    margin-left: 27px;
+    font-size: 20px;
+    display: inline;
 }

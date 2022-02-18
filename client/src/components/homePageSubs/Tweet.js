@@ -1,6 +1,7 @@
 import joe from '../../images/default-joe.jpeg'
 import {useState} from 'react'
 export default function Tweet({addTweet, user}){
+    // console.log(user)
     const [tweet, setTweet] = useState({
         text: '',
         user_id: user.id,
@@ -30,9 +31,10 @@ export default function Tweet({addTweet, user}){
             })
         })
     }
+    
     return(
         <div>
-            <img src={joe}/>
+            {user.avatar !== null ?  <img src={user.avatar} /> : <img src={joe} /> }
             <form>
                 <input maxLength='500' autoComplete="off" onChange={changeTweet} name="text" type="text" value={tweet.text} className='tweet-input' placeholder="What's happening?"></input>
                 <select onChange={changeTweet} name='reply' className="reply-box">

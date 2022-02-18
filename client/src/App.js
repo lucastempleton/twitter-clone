@@ -21,8 +21,8 @@ function App() {
   }, []);
   return (
     <Routes>
-      <Route exact path="/" element={<HomePage />} />
-      {/* <Route exact path="/" element={isAuthenticated ? <HomePage user={currentUser} /> : <LoginPage setCurrentUser={changeUser} setIsAuthenticated={changeAuth} />} /> */}
+      {/* <Route exact path="/" element={<HomePage user={currentUser} />} /> */}
+      <Route exact path="/" element={isAuthenticated ? <HomePage user={currentUser} /> : <LoginPage setCurrentUser={changeUser} setIsAuthenticated={changeAuth} />} />
     </Routes>
   );
 }
